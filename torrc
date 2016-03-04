@@ -1,0 +1,7 @@
+SocksPort 9050
+ControlPort 9051
+CookieAuthentication 1
+CookieAuthFile /etc/tor/cookie/control_auth_cookie
+ORPort 9001
+ExitPolicy reject *:*
+
